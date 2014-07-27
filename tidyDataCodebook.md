@@ -1,52 +1,52 @@
 tidyDataCodeBook
 
 subject (character)
-  30 volunteers, 19-48 years, randomly assigned: 70% training and 30% test groups
-	character, range: 1 to 30
+- 30 volunteers, 19-48 years, randomly assigned: 70% training and 30% test groups
+- character, range: 1 to 30
 
 activity (factor, with six levels)
-	subjects performed 6 activities while wearing a sensor-embedded smartphone
-	1 walking
-	2 walkingupstairs
-	3 walkingdownstairs
-	4 sitting
-	5 standing
-	6 laying  
+- subjects performed 6 activities while wearing a sensor-embedded smartphone
+- 1 walking
+- 2 walkingupstairs
+- 3 walkingdownstairs
+- 4 sitting
+- 5 standing
+- 6 laying  
 
 mean variables (numeric)
-	timeBodyAccMeanX: body acceleration, x-axis, time domain, mean
-	timeBodyAccMeanY: body acceleration, y-axis, time domain, mean
-	timeBodyAccMeanZ: body acceleration, z-axis, time domain, mean
-	timeGravityAccMeanX: gravity acceleration, x-axis, time domain, mean
-	timeGravityAccMeanY: gravity acceleration, y-axis, time domain, mean
-	timeGravityAccMeanZ: gravity acceleration, z-axis, time domain, mean
-	timeBodyAccJerkMeanX: body acceleration jerk, x-axis, time domain, mean
-	timeBodyAccJerkMeanY: body acceleration jerk, y-axis, time domain, mean
-	timeBodyAccJerkMeanZ: body acceleration jerk, z-axis, time domain, mean
-	timeBodyGyroMeanX: body gyro, x-axis, time domain, mean
-	timeBodyGyroMeanY: body gyro, y-axis, time domain, mean
-	timeBodyGyroMeanZ: body gyro, z-axis, time domain, mean
-	timeBodyGyroJerkMeanX: body gyro jerk, x-axis, time domain, mean
-	timeBodyGyroJerkMeanY: body gyro jerk, y-axis, time domain, mean
-	timeBodyGyroJerkMeanZ: body gyro jerk, z-axis, time domain, mean
-	timeBodyAccMagMean: body acceleration magnitude, time domain, mean
-	timeGravityAccMagMean: gravity acceleration magnitude, time domain, mean
-	timeBodyAccJerkMagMean: body acceleration jerk magnitude, time domain, mean
-	timeBodyGyroMagMean: body gyro magnitude, time domain, mean
-	timeBodyGyroJerkMagMean: body gyro jerk magnitude, time domain, mean
-	freqBodyAccMeanX: body acceleration, x-axis, frequency domain, mean
-	freqBodyAccMeanY: body acceleration, y-axis, frequency domain, mean
-	freqBodyAccMeanZ: body acceleration, z-axis, frequency domain, mean
-	freqBodyAccJerkMeanX: body acceleration jerk, x-axis, frequency domain, mean
-	freqBodyAccJerkMeanY: body acceleration jerk, y-axis, frequency domain, mean
-	freqBodyAccJerkMeanZ: body acceleration jerk, z-axis, frequency domain, mean
-	freqBodyGyroMeanX: body gyro, x-axis, frequency domain, mean
-	freqBodyGyroMeanY: body gyro, y-axis, frequency domain, mean
-	freqBodyGyroMeanZ: body gyro, z-axis, frequency domain, mean
-	freqBodyAccMagMean: body acceleration magnitude, frequency domain, mean
-	freqBodyAccJerkMagMean: body acceleration jerk magnitude, frequency domain, mean
-	freqBodyGyroMagMean: body gyro magnitude, frequency domain, mean
-	freqBodyGyroJerkMagMean: body gyro jerk magnitude, frequency domain, mean
+- timeBodyAccMeanX: body acceleration, x-axis, time domain, mean
+- timeBodyAccMeanY: body acceleration, y-axis, time domain, mean
+- timeBodyAccMeanZ: body acceleration, z-axis, time domain, mean
+- timeGravityAccMeanX: gravity acceleration, x-axis, time domain, mean
+- timeGravityAccMeanY: gravity acceleration, y-axis, time domain, mean
+- timeGravityAccMeanZ: gravity acceleration, z-axis, time domain, mean
+- timeBodyAccJerkMeanX: body acceleration jerk, x-axis, time domain, mean
+- timeBodyAccJerkMeanY: body acceleration jerk, y-axis, time domain, mean
+- timeBodyAccJerkMeanZ: body acceleration jerk, z-axis, time domain, mean
+- timeBodyGyroMeanX: body gyro, x-axis, time domain, mean
+- timeBodyGyroMeanY: body gyro, y-axis, time domain, mean
+- timeBodyGyroMeanZ: body gyro, z-axis, time domain, mean
+- timeBodyGyroJerkMeanX: body gyro jerk, x-axis, time domain, mean
+- timeBodyGyroJerkMeanY: body gyro jerk, y-axis, time domain, mean
+- timeBodyGyroJerkMeanZ: body gyro jerk, z-axis, time domain, mean
+- timeBodyAccMagMean: body acceleration magnitude, time domain, mean
+- timeGravityAccMagMean: gravity acceleration magnitude, time domain, mean
+- timeBodyAccJerkMagMean: body acceleration jerk magnitude, time domain, mean
+- timeBodyGyroMagMean: body gyro magnitude, time domain, mean
+- timeBodyGyroJerkMagMean: body gyro jerk magnitude, time domain, mean
+- freqBodyAccMeanX: body acceleration, x-axis, frequency domain, mean
+- freqBodyAccMeanY: body acceleration, y-axis, frequency domain, mean
+- freqBodyAccMeanZ: body acceleration, z-axis, frequency domain, mean
+- freqBodyAccJerkMeanX: body acceleration jerk, x-axis, frequency domain, mean
+- freqBodyAccJerkMeanY: body acceleration jerk, y-axis, frequency domain, mean
+- freqBodyAccJerkMeanZ: body acceleration jerk, z-axis, frequency domain, mean
+- freqBodyGyroMeanX: body gyro, x-axis, frequency domain, mean
+- freqBodyGyroMeanY: body gyro, y-axis, frequency domain, mean
+- freqBodyGyroMeanZ: body gyro, z-axis, frequency domain, mean
+- freqBodyAccMagMean: body acceleration magnitude, frequency domain, mean
+- freqBodyAccJerkMagMean: body acceleration jerk magnitude, frequency domain, mean
+- freqBodyGyroMagMean: body gyro magnitude, frequency domain, mean
+- freqBodyGyroJerkMagMean: body gyro jerk magnitude, frequency domain, mean
 	
 standard deviation (std) variables (mumeric)
 	timeBodyAccStdX:  body acceleration, x-axis, time domain, std
