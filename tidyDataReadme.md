@@ -4,14 +4,14 @@ Background:
 The Human Activity Recognition (HAR) database contains recordings of 30 subjects performing activities of daily living while wearing a waist-mounted smartphone embedded with inertial sensors. Experiments were performed with 30 volunteers, age 19-48 years. Each individual performed six activities (walking, walkingupstairs, walkingdownstairs, sitting, standing, laying) wearing a Samsung smartphone on the waist. Embedded accelerometer and gyroscope captured 3-axial linear acceleration and 3-axial angular velocity measurements. Data set was randomly assigned to two groups: 70% (21 individuals) to training data and 30% (9 individuals) to test data. The original data set contained 561 features (measurements) with time and frequency domains.
 
 HAR Data Files:
-  - train/X_train.txt: training data set (one measurement per row)
-	- train/y_train.txt: training activity codes, range 1:6
-	- train/subject_train.txt: identifies subject performing the activity, range 1:30
-	- test/X_test.txt: test data set (one measurement per row)
-	- test/y_test.txt: test activity codes, range 1:6
-	- test/subject_train.txt: identifies subject performing the activity, range 1:30
-	- activity_labels.txt: activity code numbers and names
-	- features.txt: list of all 561 measurements
+- train/X_train.txt: training data set (one measurement per row)
+- train/y_train.txt: training activity codes, range 1:6
+- train/subject_train.txt: identifies subject performing the activity, range 1:30
+- test/X_test.txt: test data set (one measurement per row)
+- test/y_test.txt: test activity codes, range 1:6
+- test/subject_train.txt: identifies subject performing the activity, range 1:30
+- activity_labels.txt: activity code numbers and names
+- features.txt: list of all 561 measurements
 
 HAR Variables:
 As described in the original publication (Anguita et al., 2012), the features (measurements) in this database are from 3-axial accelerometer and gyroscope signals, tAcc-XYZ and tGyro-XYZ. Acceleration signals were separated into body and gravity acceleration signals: tBodyAcc-XYZ and tGravityAcc-XYZ. 
