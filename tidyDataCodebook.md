@@ -49,39 +49,39 @@ mean variables (numeric)
 - freqBodyGyroJerkMagMean: body gyro jerk magnitude, frequency domain, mean
 	
 standard deviation (std) variables (mumeric)
-	timeBodyAccStdX:  body acceleration, x-axis, time domain, std
-	timeBodyAccStdY:  body acceleration, y-axis, time domain, std
-	timeBodyAccStdZ:  body acceleration, z-axis, time domain, std
-	timeGravityAccStdX: gravity acceleration, x-axis, time domain, std
-	timeGravityAccStdY: gravity acceleration, y-axis, time domain, std
-	timeGravityAccStdZ: gravity acceleration, z-axis, time domain, std
-	timeBodyAccJerkStdX: body acceleration jerk, x-axis, time domain, std
-	timeBodyAccJerkStdY: body acceleration jerk, y-axis, time domain, std
-	timeBodyAccJerkStdZ: body acceleration jerk, z-axis, time domain, std
-	timeBodyGyroStdX: body gyro, x-axis, time domain, std
-	timeBodyGyroStdY: body gyro, y-axis, time domain, std
-	timeBodyGyroStdZ: body gyro, z-axis, time domain, std
-	timeBodyGyroJerkStdX: body gyro jerk, x-axis, time domain, std
-	timeBodyGyroJerkStdY: body gyro jerk, y-axis, time domain, std
-	timeBodyGyroJerkStdZ: body gyro jerk, z-axis, time domain, std
-	timeBodyAccMagStd: body acceleration magnitude, time domain, std
-	timeGravityAccMagStd: gravity acceleration magnitude, time domain, std
-	timeBodyAccJerkMagStd: body acceleration jerk magnitude, time domain, std
-	timeBodyGyroMagStd: body gyro magnitude, time domain, std
-	timeBodyGyroJerkMagStd: body gyro jerk magnitude, time domain, std
-	freqBodyAccStdX: body acceleration, x-axis, frequency domain, std
-	freqBodyAccStdY: body acceleration, y-axis, frequency domain, std
-	freqBodyAccStdZ: body acceleration, z-axis, frequency domain, std
-	freqBodyAccJerkStdX: body acceleration jerk, x-axis, frequency domain, std
-	freqBodyAccJerkStdY: body acceleration jerk, y-axis, frequency domain, std
-	freqBodyAccJerkStdZ: body acceleration jerk, z-axis, frequency domain, std
-	freqBodyGyroStdX: body gyro, x-axis, frequency domain, std
-	freqBodyGyroStdY: body gyro, y-axis, frequency domain, std
-	freqBodyGyroStdZ: body gyro, z-axis, frequency domain, std
-	freqBodyAccMagStd: body acceleration magnitude, frequency domain, std
-	freqBodyAccJerkMagStd: body acceleration jerk magnitude, frequency domain, std
-	freqBodyGyroMagStd: body gyro magnitude, frequency domain, mean
-	freqBodyGyroJerkMagStd: body gyro jerk magnitude, frequency domain, mean
+- timeBodyAccStdX:  body acceleration, x-axis, time domain, std
+- timeBodyAccStdY:  body acceleration, y-axis, time domain, std
+- timeBodyAccStdZ:  body acceleration, z-axis, time domain, std
+- timeGravityAccStdX: gravity acceleration, x-axis, time domain, std
+- timeGravityAccStdY: gravity acceleration, y-axis, time domain, std
+- timeGravityAccStdZ: gravity acceleration, z-axis, time domain, std
+- timeBodyAccJerkStdX: body acceleration jerk, x-axis, time domain, std
+- timeBodyAccJerkStdY: body acceleration jerk, y-axis, time domain, std
+- timeBodyAccJerkStdZ: body acceleration jerk, z-axis, time domain, std
+- timeBodyGyroStdX: body gyro, x-axis, time domain, std
+- timeBodyGyroStdY: body gyro, y-axis, time domain, std
+- timeBodyGyroStdZ: body gyro, z-axis, time domain, std
+- timeBodyGyroJerkStdX: body gyro jerk, x-axis, time domain, std
+- timeBodyGyroJerkStdY: body gyro jerk, y-axis, time domain, std
+- timeBodyGyroJerkStdZ: body gyro jerk, z-axis, time domain, std
+- timeBodyAccMagStd: body acceleration magnitude, time domain, std
+- timeGravityAccMagStd: gravity acceleration magnitude, time domain, std
+- timeBodyAccJerkMagStd: body acceleration jerk magnitude, time domain, std
+- timeBodyGyroMagStd: body gyro magnitude, time domain, std
+- timeBodyGyroJerkMagStd: body gyro jerk magnitude, time domain, std
+- freqBodyAccStdX: body acceleration, x-axis, frequency domain, std
+- freqBodyAccStdY: body acceleration, y-axis, frequency domain, std
+- freqBodyAccStdZ: body acceleration, z-axis, frequency domain, std
+- freqBodyAccJerkStdX: body acceleration jerk, x-axis, frequency domain, std
+- freqBodyAccJerkStdY: body acceleration jerk, y-axis, frequency domain, std
+- freqBodyAccJerkStdZ: body acceleration jerk, z-axis, frequency domain, std
+- freqBodyGyroStdX: body gyro, x-axis, frequency domain, std
+- freqBodyGyroStdY: body gyro, y-axis, frequency domain, std
+- freqBodyGyroStdZ: body gyro, z-axis, frequency domain, std
+- freqBodyAccMagStd: body acceleration magnitude, frequency domain, std
+- freqBodyAccJerkMagStd: body acceleration jerk magnitude, frequency domain, std
+- freqBodyGyroMagStd: body gyro magnitude, frequency domain, mean
+- freqBodyGyroJerkMagStd: body gyro jerk magnitude, frequency domain, mean
 
 
 Note: all features (measurements) normalized and bounded within [-1,1]
