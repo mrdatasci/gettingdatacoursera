@@ -21,23 +21,23 @@ Note: '-XYZ' denotes axial signals in the X, Y and Z directions (3 separate meas
 Note: Measurements are normalized and bounded within [-1,1].
 
 33 signals were measured:
-	timeBodyAcc-XYZ
-	timeGravityAcc-XYZ
-	timeBodyAccJerk-XYZ
-	timeBodyGyro-XYZ
-	timeBodyGyroJerk-XYZ
-	timeBodyAccMag
-	timeGravityAccMag
-	timeBodyAccJerkMag
-	timeBodyGyroMag
-	timeBodyGyroJerkMag
-	freqBodyAcc-XYZ
-	freqBodyAccJerk-XYZ
-	freqBodyGyro-XYZ
-	freqBodyAccMag
-	freqBodyAccJerkMag
-	freqBodyGyroMag
-	freqBodyGyroJerkMag
+	- timeBodyAcc-XYZ
+	- timeGravityAcc-XYZ
+	- timeBodyAccJerk-XYZ
+	- timeBodyGyro-XYZ
+	- timeBodyGyroJerk-XYZ
+	- timeBodyAccMag
+	- timeGravityAccMag
+	- timeBodyAccJerkMag
+	- timeBodyGyroMag
+	- timeBodyGyroJerkMag
+	- freqBodyAcc-XYZ
+	- freqBodyAccJerk-XYZ
+	- freqBodyGyro-XYZ
+	- freqBodyAccMag
+	- freqBodyAccJerkMag
+	- freqBodyGyroMag
+	- freqBodyGyroJerkMag
 
 Using these signals, investigators estimated 17 variable sets (mean, standard deviation, median absolute deviation, maximum value, minimum value, signal magnitude area, energy, interquartile range,  entropy, autoregression coefficients, correlation coefficient, maximum index, meanFreq, skewness, kurtosis, bands energy, angle) for a total of 561 variables.
 
