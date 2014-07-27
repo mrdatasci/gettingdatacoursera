@@ -21,52 +21,52 @@ Note: '-XYZ' denotes axial signals in the X, Y and Z directions (3 separate meas
 Note: Measurements are normalized and bounded within [-1,1].
 
 33 signals were measured:
-	- timeBodyAcc-XYZ
-	- timeGravityAcc-XYZ
-	- timeBodyAccJerk-XYZ
-	- timeBodyGyro-XYZ
-	- timeBodyGyroJerk-XYZ
-	- timeBodyAccMag
-	- timeGravityAccMag
-	- timeBodyAccJerkMag
-	- timeBodyGyroMag
-	- timeBodyGyroJerkMag
-	- freqBodyAcc-XYZ
-	- freqBodyAccJerk-XYZ
-	- freqBodyGyro-XYZ
-	- freqBodyAccMag
-	- freqBodyAccJerkMag
-	- freqBodyGyroMag
-	- freqBodyGyroJerkMag
+- timeBodyAcc-XYZ
+- timeGravityAcc-XYZ
+- timeBodyAccJerk-XYZ
+- timeBodyGyro-XYZ
+- timeBodyGyroJerk-XYZ
+- timeBodyAccMag
+- timeGravityAccMag
+- timeBodyAccJerkMag
+- timeBodyGyroMag
+- timeBodyGyroJerkMag
+- freqBodyAcc-XYZ
+- freqBodyAccJerk-XYZ
+- freqBodyGyro-XYZ
+- freqBodyAccMag
+- freqBodyAccJerkMag
+- freqBodyGyroMag
+- freqBodyGyroJerkMag
 
 Using these signals, investigators estimated 17 variable sets (mean, standard deviation, median absolute deviation, maximum value, minimum value, signal magnitude area, energy, interquartile range,  entropy, autoregression coefficients, correlation coefficient, maximum index, meanFreq, skewness, kurtosis, bands energy, angle) for a total of 561 variables.
 
 tidyData Project Overview:
-	Uses the UCI HAR Dataset to create an R script that does the following: 
-	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-	1. Merges the training and test data sets to create one data set 
-	2. Extracts measurements on the mean and standard deviation for each measurement
-	3. Uses descriptive activity names to name the activities in the data set 
-	4. Appropriately labels the data set with descriptive activity names 
-	5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject 
+Uses the UCI HAR Dataset to create an R script that does the following: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+1. Merges the training and test data sets to create one data set 
+2. Extracts measurements on the mean and standard deviation for each measurement
+3. Uses descriptive activity names to name the activities in the data set 
+4. Appropriately labels the data set with descriptive activity names 
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject 
 
 This course project looks at the mean and standard deviation (std) estimates for each of the 33 signals (66 variables) and then calculates the average of each variable for each subject and each activity (180 subject-activity combinations).
 
 tidyData Data Set:
-	- Each variable forms a column (66 measurements, subject number, activity level)
-	- Each observation forms a row (180 subject-activity combinations)
-	- Each type of observational unit (mean calculation) forms a table
-	- Final tidyData set is 180 x 68 data frame 
-		* 180 rows: subject-activity observations
-		* 68 columns: subject, activity, 33 mean variables, 33 std variables
+- Each variable forms a column (66 measurements, subject number, activity level)
+- Each observation forms a row (180 subject-activity combinations)
+- Each type of observational unit (mean calculation) forms a table
+- Final tidyData set is 180 x 68 data frame 
+  * 180 rows: subject-activity observations
+  * 68 columns: subject, activity, 33 mean variables, 33 std variables
 
-	In order to make the data more readable, descriptive variable names were added and descriptive activities substituted for the activity number codes. [Note: camelCase used, instead of all lower case, to make the long column names more readable.]
+In order to make the data more readable, descriptive variable names were added and descriptive activities substituted for the activity number codes. [Note: camelCase used, instead of all lower case, to make the long column names more readable.]
 
 tidyData Submissions:
-	1. tidyData.txt file (uploaded on Coursera)
-	2. R script for performing the analysis (posted on GitHub) 
-	3. CodeBook.md describing variables, data, and data cleanup (posted on GitHub)
-	4. README.md repo explaining how the script works (posted on GitHub)
+1. tidyData.txt file (uploaded on Coursera)
+2. R script for performing the analysis (posted on GitHub) 
+3. CodeBook.md describing variables, data, and data cleanup (posted on GitHub)
+4. README.md repo explaining how the script works (posted on GitHub)
 
 Reference:
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
