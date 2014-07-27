@@ -63,10 +63,10 @@ tidyData Data Set:
 In order to make the data more readable, descriptive variable names were added and descriptive activities substituted for the activity number codes. [Note: camelCase used, instead of all lower case, to make the long column names more readable.]
 
 tidyData Submissions:
-1. tidyData.txt file (uploaded on Coursera)
-2. R script for performing the analysis (posted on GitHub) 
-3. CodeBook.md describing variables, data, and data cleanup (posted on GitHub)
-4. README.md repo explaining how the script works (posted on GitHub)
+- tidyData.txt file (uploaded on Coursera)
+- R script for performing the analysis (posted on GitHub) 
+- CodeBook.md describing variables, data, and data cleanup (posted on GitHub)
+- README.md repo explaining how the script works (posted on GitHub)
 
 Reference:
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
